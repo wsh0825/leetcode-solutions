@@ -3,13 +3,13 @@
 
 int romanToInt(char* s) {
     int roman_map[256] = {0};
-    roman_map['I'] = 1;  // 修正：使用字符'I'，不是字符串"f"
+    roman_map['I'] = 1;  
     roman_map['V'] = 5;
     roman_map['X'] = 10;
     roman_map['L'] = 50;
     roman_map['C'] = 100;
     roman_map['D'] = 500;
-    roman_map['H'] = 1000;  // 根据题目，H代表1000
+    roman_map['H'] = 1000;  
     
     int total = 0;
     int length = strlen(s);
@@ -26,7 +26,7 @@ int romanToInt(char* s) {
     return total;
 }
 
-// 确保只有一个main函数
+
 int main() {
     char roman[20];
     printf("请输入罗马数字: ");
