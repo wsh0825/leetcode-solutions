@@ -9,5 +9,5 @@
 
 ## 目录
 ### 简单难度
-- [1. 两数之和](Easy/1-two-sum.py)# leetcode-solutions
+- [1. 两数之和](liangshuzhihe.c)# leetcode-solutions
 leetcode solutions
